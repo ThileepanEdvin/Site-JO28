@@ -1,0 +1,188 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #0057b7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ffffff; /* Titre en blanc */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+/* Section */
+h1, h2 {
+    text-align: center;
+    color: #0057b7; /* Titre bleu */
+    margin: 20px auto;
+    max-width: 800px; /* Réduit la largeur des titres */
+    font-size: 1.6em; /* Taille ajustée */
+}
+
+p, ul {
+    text-align: justify; /* Alignement justifié */
+    margin: 0 auto 20px auto;
+    max-width: 800px; /* Réduit la largeur du texte */
+    font-size: 1em; /* Taille de police ajustée */
+    line-height: 1.6; /* Espacement des lignes */
+    padding: 0 10px; /* Espacement à gauche et droite */
+}
+
+/* Texte en gras en bleu */
+strong {
+    color: #0057b7;
+    font-weight: bold; /* Assure que c'est bien en gras */
+}
+
+/* Images avec effet de mouvement */
+figure {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.responsive-img:hover {
+    transform: scale(1.1) rotate(2deg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Bouton Haut de Page */
+.back-to-top {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #FF0000; /* Couleur du texte */
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.back-to-top:hover {
+    color: #ffffff; /* Couleur au survol */
+}
+
+/* Style des boîtes pour chaque section */
+.content-box {
+    display: flex;
+    flex-wrap: wrap; /* Permet de passer en colonne sur petits écrans */
+    background-color: #fff; /* Fond blanc */
+    border: 2px solid #ddd; /* Bordure légère */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    margin: 20px auto; /* Espacement autour des sections */
+    padding: 30px; /* Plus d'espace à l'intérieur */
+    max-width: 1000px; /* Largeur maximale */
+}
+
+/* Texte dans la boîte */
+.content-box .text-content {
+    flex: 1; /* Prend l'espace disponible */
+    padding: 10px 20px;
+    text-align: justify; /* Alignement justifié */
+    min-width: 300px; /* Assure une largeur minimale */
+    box-sizing: border-box;
+    max-width: 800px; /* Limite la largeur du texte */
+}
+
+/* Images dans la boîte */
+.content-box figure {
+    flex: 1;
+    text-align: center; /* Centre l'image */
+    margin: 0;
+    padding: 10px;
+}
+
+.content-box figure img {
+    max-width: 100%; /* Images s'adaptent à la boîte */
+    height: auto;
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre douce */
+}
+
+
+/* Header */
+header h1 {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+/* Section principale */
+h1 {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 2em;
+    max-width: 800px; /* Largeur limitée pour éviter trop d'étalement */
+    color: #0057b7;
+}
+
+/* Footer */
+footer p {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 0.9em;
+}
