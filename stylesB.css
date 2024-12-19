@@ -1,0 +1,125 @@
+/* Style global */
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    background-color: #0057b7;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+/* Titre principal */
+h1 {
+    text-align: center;
+    font-size: 2.2em;
+    color: #0057b7;
+    margin-bottom: 20px;
+}
+
+/* Image Container */
+.image-container {
+    display: flex;
+    flex-wrap: wrap; /* Passe en colonne sur petits écrans */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px; /* Limite la largeur des blocs */
+}
+
+.image-container img {
+    flex: 1; /* Image prend de l'espace disponible */
+    max-width: 300px; /* Limite la taille des images */
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-container img:hover {
+    transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.image-container .comment {
+    flex: 2; /* Texte prend plus d'espace */
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* Bouton Haut de Page */
+.back-to-top {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #FF0000;
+    font-size: 1em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.back-to-top:hover {
+    color: #ffffff;
+}
